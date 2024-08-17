@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Calculator!! </title>
+  </head>
+  <body>
+    <h1 class="text-center">
+      <span id="element"></span
+      ><img class="img" src="bg.png-removebg-preview.png" alt="" />
+    </h1>
+
+    
+    <div class="container bg-red item-center flex flex-col">
+      <div class="row">
+        <input class="input" type="text here" title="text here" />
+      </div>
+      <div class="row">
+        <button class="button A1">C</button> 
+        <button class="button A1">%</button>
+        <button class="button A1">M+</button>
+        <button class="button A1">M-</button>
+      </div>
+      <div class="row">
+        <button class="button">7</button>
+        <button class="button">8</button>
+        <button class="button">9</button>
+        <button class="button A1">*</button>
+      </div>
+      <div class="row">
+        <button class="button">4</button>
+        <button class="button">5</button>
+        <button class="button">6</button>
+        <button class="button A1">/</button>
+      </div>
+      <div class="row">
+        <button class="button">1</button>
+        <button class="button">2</button>
+        <button class="button">3</button>
+        <button class="button A1">-</button>
+      </div>
+      <div class="row">
+        <button class="button">0</button>
+        <button class="button A1">.</button>
+        <button class="button A1">=</button>
+        <button class="button A1">+</button>
+      </div>
+    </div>
+    <div id="downpic"><img src="Capture-removebg-preview.png" alt="pic" /></div>
+
+    <script src="logic.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [" stylish Calculator ."],
+
+        typeSpeed: 20,
+      });
+    </script>
+  </body>
+</html>
